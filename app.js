@@ -23,4 +23,8 @@ $(function(){
 
 	});
 
+	$(".load_dataset").click(function(){
+		 $(".docs").val($("#sample_dataset").text());
+	});
+
 });
